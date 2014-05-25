@@ -1,4 +1,4 @@
-Coursera Getting and Cleaning Data Class - Course Project
+Coursera Getting and Cleaning Data - Course Project
 ---------------------------------------------------------
 
 **Requirements:**
