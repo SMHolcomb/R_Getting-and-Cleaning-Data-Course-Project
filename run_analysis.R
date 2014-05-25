@@ -34,7 +34,7 @@ StandardMeanSub<-grep("mean\\(\\)|std",featuresData[,2])
 mergeData<-mergeData[,StandardMeanSub]
 
 
-    # use index of subset to set column headings and cleanup by removing parenthesis,dashes, and stting fontcases
+    # use index of subset to set column headings and cleanup by removing parenthesis,dashes, and setting fontcases
 names(mergeData)<-gsub("\\(\\)", "", featuresData[StandardMeanSub, 2])
 names(mergeData)<-gsub("-","",names(mergeData))
 names(mergeData)<-gsub("mean","Mean",names(mergeData)) #capitalize mean and std
