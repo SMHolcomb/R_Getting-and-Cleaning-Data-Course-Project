@@ -37,5 +37,5 @@ Using data abtained from the URL above, demonstrate your ability to collect, wor
 14. Merge all sets together to form one temporary master file
 15. Using the reshape2 library, melt the temporary dataset created in step#14 above to calculate mean for each subject,activity combination - and put it in a final tidyData dataset.
 16. Because sort order of activity was lost during melt, force a resort by subject and then activity per the cleaned up activity labels created in step#10 above.
-17. Write final tidy dataset to tidyData.txt 
+17. Write final tidy dataset to working directory as "tidyData.txt"
 
